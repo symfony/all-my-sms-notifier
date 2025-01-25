@@ -49,7 +49,7 @@ final class AllMySmsTransport extends AbstractTransport
     }
 
     /**
-     * @See https://doc.allmysms.com/api/en/#api-SMS-sendsimple
+     * @see https://doc.allmysms.com/api/en/#api-SMS-sendsimple
      */
     protected function doSend(MessageInterface $message): SentMessage
     {
